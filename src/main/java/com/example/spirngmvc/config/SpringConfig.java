@@ -16,7 +16,7 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
  * @author domster704
  */
 @Configuration
-@ComponentScan("ru.isupov.springanimeai")
+@ComponentScan("com.example.spirngmvc")
 @EnableWebMvc // == annotation-driven in xml
 public class SpringConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
